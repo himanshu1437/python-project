@@ -12,7 +12,7 @@ stages {
 }
 stage ("Checkout from SCM") {
    steps {
-      git branch : "main", credentialsId : "github", url : "https://github.com/himanshu1437/My-Project.git"
+      git branch : "main", credentialsId : "github", url : "https://github.com/himanshu1437/python-project.git"
      }
 }
 stage ("Build Application") {
